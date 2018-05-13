@@ -11,7 +11,7 @@ if($_POST["user_name"] != "slackbot"){
   $replace = str_replace(':', '', $q);
   $stampname = $str = rtrim($replace);
   
-  $url = "http://10.17.25.12:28080/php/phpbotstartup/img/";
+  $url = "http://XX.XX.XX.XX:28080/php/phpbotstartup/img/";
   $extension = ".png";
   
   $text = $url.$stampname.$extension;
